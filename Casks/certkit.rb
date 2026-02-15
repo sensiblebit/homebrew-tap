@@ -8,7 +8,7 @@ cask "certkit" do
   name "certkit"
   desc "A certificate management tool that ingests TLS/SSL certificates and keys, catalogs them in SQLite, and exports organized bundles."
   homepage "https://github.com/sensiblebit/certkit"
-  version "0.6.6"
+  version "0.6.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,22 +19,22 @@ cask "certkit" do
   on_macos do
     on_intel do
       url "https://github.com/sensiblebit/certkit/releases/download/v#{version}/certkit_#{version}_darwin_amd64.tar.gz"
-      sha256 "bf5cbedac6916fd59673edb3fb55e6c34d6a2c8e44ed43413ce06ba9750fc25f"
+      sha256 "d1167faca934b32de5d7ad8001053d81cb676a21ea0ca1549fe9cbbbc8c379d4"
     end
     on_arm do
       url "https://github.com/sensiblebit/certkit/releases/download/v#{version}/certkit_#{version}_darwin_arm64.tar.gz"
-      sha256 "a4fb0cdd66db23eb0dc659daca8057ddae5e0193c87190b348f9d02e3bd75756"
+      sha256 "2f37d95a2c6bdfca73c62490748cf942b2af7c44792623a5b22fb84d3da312c5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sensiblebit/certkit/releases/download/v#{version}/certkit_#{version}_linux_amd64.tar.gz"
-      sha256 "29316bcfe25c5a91cd9227c80feb76a254bb3cf6cfc755e0991a49ac99ac09ed"
+      sha256 "dfdbc1baee1d8625a957fb629cc6ddb6ff470bfffe691c1a29bedc0db8166ae4"
     end
     on_arm do
       url "https://github.com/sensiblebit/certkit/releases/download/v#{version}/certkit_#{version}_linux_arm64.tar.gz"
-      sha256 "be10ae2eb06ea9c9e6a5a1b3a99ea4abd91c6c96cd47e442db810bddf41a1e01"
+      sha256 "8da43e750ca90b9ac15bd879ca60cacbf70b1ac82eb29f09960b026bdef2deae"
     end
   end
 
