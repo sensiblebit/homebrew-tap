@@ -8,7 +8,7 @@ cask "vanityssh" do
   name "vanityssh"
   desc "Generate ED25519 SSH keys with vanity public keys"
   homepage "https://github.com/danielewood/vanityssh-go"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,22 +19,22 @@ cask "vanityssh" do
   on_macos do
     on_intel do
       url "https://github.com/danielewood/vanityssh-go/releases/download/v#{version}/vanityssh-go_#{version}_darwin_amd64.tar.gz"
-      sha256 "554db4c585e0159382279e1e9861281f7e8d76093ca62676f3cf01c5e2ee3aef"
+      sha256 "5af5bf49a2478a5e0ac6da89ea41434da3886958cfee0886291c2f5c93626e28"
     end
     on_arm do
       url "https://github.com/danielewood/vanityssh-go/releases/download/v#{version}/vanityssh-go_#{version}_darwin_arm64.tar.gz"
-      sha256 "3ea75b25522b690e4e3f5746264e53bd4b507164f54f72da52b6ee1f8651c5a6"
+      sha256 "18cc068fac5e74c40f5b999e163946b0584633eccf69034ac51cfcf09d8b2c96"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/danielewood/vanityssh-go/releases/download/v#{version}/vanityssh-go_#{version}_linux_amd64.tar.gz"
-      sha256 "f1696d7d4e02748b9a99c5e3c39df18532458ccf1ea5a3d0345daee6d6c102bc"
+      sha256 "70ee3658af673f9353607f02884814b66750bdbb7b29fd05d100036f4e3dee27"
     end
     on_arm do
       url "https://github.com/danielewood/vanityssh-go/releases/download/v#{version}/vanityssh-go_#{version}_linux_arm64.tar.gz"
-      sha256 "09a3f63d83204e9cc483abe46891f61e5073b94b12bbcc92ab9fe084bc76b4e2"
+      sha256 "a6d1c022ce2feceb26c5993b4421dfcbbf9451348fa8a7bcf126898fe42fc264"
     end
   end
 
