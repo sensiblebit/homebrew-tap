@@ -14,6 +14,7 @@ cask "certkit" do
     skip "Auto-generated on release."
   end
 
+  conflicts_with cask: "certkit@nightly"
   binary "certkit"
 
   on_macos do
