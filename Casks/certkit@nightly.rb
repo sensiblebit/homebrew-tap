@@ -3,7 +3,7 @@ cask "certkit@nightly" do
   name "certkit nightly"
   desc "Nightly snapshots of certkit certificate tooling"
   homepage "https://github.com/sensiblebit/certkit"
-  version "nightly-20261013184914-b604e8f"
+  version "nightly-20261014180656-8e0137e"
 
   livecheck do
     skip "Updated on every push to main."
@@ -22,22 +22,22 @@ cask "certkit@nightly" do
 
     on_intel do
       url "https://github.com/sensiblebit/certkit/releases/download/nightly/certkit_#{version}_darwin_amd64.tar.gz"
-      sha256 "16bd61f64dce573ab9962fdf74e26d6d934250f0cdcf7123858e895816ffe719"
+      sha256 "7f3bf116f610be8dc094f61f01f3c3fa5e79ed5e3fbc6b918b335703cf4508be"
     end
     on_arm do
       url "https://github.com/sensiblebit/certkit/releases/download/nightly/certkit_#{version}_darwin_arm64.tar.gz"
-      sha256 "15ef5dcc0e5f6941a77bd66bcc1ca1c3ed95c52d724b0951c787b88abeda49b2"
+      sha256 "f127e46ad234399e8f774a4e711530b7dcb778b74698ff1cd80af57809808b1a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sensiblebit/certkit/releases/download/nightly/certkit_#{version}_linux_amd64.tar.gz"
-      sha256 "d63385254aa2ba52e7404377ac6657e66529f55de2c3c8c6d32a029bd80a6f12"
+      sha256 "fa6dc1016989e01421a1533ce9c4e76264b461a0c95482ecb02296320dc0b6c1"
     end
     on_arm do
       url "https://github.com/sensiblebit/certkit/releases/download/nightly/certkit_#{version}_linux_arm64.tar.gz"
-      sha256 "02950a80c8776dea1e4b776e078253ff8ce94f0edf41476b6343163a848d830b"
+      sha256 "da8a51d90a9969d648cf5dd90864c55c47b2b2f94f349e553074547052cce234"
     end
   end
 end
